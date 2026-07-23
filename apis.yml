@@ -1,7 +1,30 @@
 aid: audiodraft
 name: Audiodraft
-description: Audiodraft is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Audiodraft is a Helsinki-founded global audio branding and custom music
+  production company that helps brands design, create, and manage their sonic
+  identity across advertising, video, games, and campaigns. Its service is
+  organized around three offerings — ANALYZE (data-driven audio strategy and
+  brand-attribute analysis), CREATE (custom music, sound design, and voice-over
+  production), and MANAGE (brand-fit validation and sound testing) — drawing on a
+  crowdsourced community of thousands of composers and sound designers across
+  100+ countries. Audiodraft has worked with brands and agencies including
+  Nokia, Red Bull Media House, Finnair, Fortum, and TBWA. It is a creative
+  audio-branding services provider and does not currently publish a public API or
+  developer program; this profile was surfaced as a 500 Global portfolio company
+  and enriched with its public identity and domain-security posture.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.audiodraft.com/images/nl/landing/logo_770x400.jpg
 url: https://raw.githubusercontent.com/api-evangelist/audiodraft/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Audio Branding
+- Sound Design
+- Music Production
+- Voice-over
+- Crowdsourcing
+- Creative Services
+- Audio
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +52,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://audiodraft.com
+  url: https://www.audiodraft.com
+- type: Blog
+  url: https://www.audiodraft.com/blog/
+- type: Pricing
+  url: https://www.audiodraft.com/pricing/
+- type: SignUp
+  url: https://www.audiodraft.com/register/
+- type: Login
+  url: https://www.audiodraft.com/signin/
+- type: Support
+  url: https://www.audiodraft.com/contact/
+- type: TermsOfService
+  url: https://www.audiodraft.com/legal/terms/
+- type: PrivacyPolicy
+  url: https://www.audiodraft.com/legal/privacy/
+- type: DomainSecurity
+  url: security/audiodraft-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
