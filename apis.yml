@@ -13,6 +13,17 @@ description: >-
   audio-branding services provider and does not currently publish a public API or
   developer program; this profile was surfaced as a 500 Global portfolio company
   and enriched with its public identity and domain-security posture.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
